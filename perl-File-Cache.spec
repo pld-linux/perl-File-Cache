@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Cache
-Summary:	File-Cache perl module
-Summary(pl):	Modu³ perla File-Cache
+Summary:	File::Cache perl module
+Summary(pl):	Modu³ perla File::Cache
 Name:		perl-File-Cache
 Version:	0.16
 Release:	6
