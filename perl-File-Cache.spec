@@ -37,7 +37,7 @@ ilo¶ci z³o¿onych obiektów.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
