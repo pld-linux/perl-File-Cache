@@ -6,8 +6,14 @@ Version:	0.16
 Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
+Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
 Group(de):	Entwicklung/Sprachen/Perl
+Group(es):	Desarrollo/Lenguajes/Perl
+Group(fr):	Development/Langues/Perl
+Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
+Group(pt):	Desenvolvimento/Linguagens/Perl
+Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/File/File-Cache-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl-devel >= 5.6.1
@@ -15,9 +21,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-File::Cache implements an object store where data is persisted
-across processes in the filesystem. It was written to compliment
-IPC::Cache.
+File::Cache implements an object store where data is persisted across
+processes in the filesystem. It was written to compliment IPC::Cache.
 
 Where IPC::Cache is faster for small numbers of simple objects,
 File::Cache tends toward being more performant when caching large
