@@ -3,7 +3,7 @@ Summary:	File-Cache perl module
 Summary(pl):	Modu³ perla File-Cache
 Name:		perl-File-Cache
 Version:	0.16
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -16,12 +16,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 File::Cache implements an object store where data is persisted
-across processes in the filesystem.  It was written to compliment
+across processes in the filesystem. It was written to compliment
 IPC::Cache.
 
 Where IPC::Cache is faster for small numbers of simple objects,
 File::Cache tends toward being more performant when caching large
 numbers of complex objects.
+
+%description -l pl
+File::Cache implementuje obiekt przechowuj±cy dane, które s±
+zachowywane na czas dzia³añ w systemie plików. Zosta³ napisany jako
+odpowiednik IPC::Cache.
+
+O ile IPC::Cache jest szybszy dla ma³ych ilo¶ci prostych obiektów,
+File::Cache próbuje byæ bardziej wydajny przy cachowaniu wiêkszych
+ilo¶ci z³o¿onych obiektów.
 
 %prep
 %setup -q -n File-Cache-%{version}
