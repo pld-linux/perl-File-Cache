@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Cache
-%include	/usr/lib/rpm/macros.perl
 Summary:	File-Cache perl module
 Summary(pl):	Modu³ perla File-Cache
 Name:		perl-File-Cache
 Version:	0.16
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -33,7 +32,7 @@ File::Cache próbuje byæ bardziej wydajny przy cachowaniu wiêkszych
 ilo¶ci z³o¿onych obiektów.
 
 %prep
-%setup -q -n File-Cache-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
