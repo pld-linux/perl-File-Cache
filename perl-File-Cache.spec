@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Cache
-Summary:	File::Cache perl module
-Summary(pl):	Modu³ perla File::Cache
+Summary:	File::Cache - share data between processes via filesystem
+Summary(pl):	File::Cache - uwspólnianie danych pomiêdzy procesami poprzez system plików
 Name:		perl-File-Cache
 Version:	0.16
 Release:	7
-License:	GPL
+License:	GPL v1+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	712371ae4ee88de11072d1616ae0af72
