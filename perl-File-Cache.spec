@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Cache
+%define		pdir	File
+%define		pnam	Cache
 Summary:	File::Cache - share data between processes via filesystem
 Summary(pl):	File::Cache - uwspólnianie danych pomiêdzy procesami poprzez system plików
 Name:		perl-File-Cache
