@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Cache
 Summary:	File::Cache - share data between processes via filesystem
-Summary(pl):	File::Cache - uwspólnianie danych pomiêdzy procesami poprzez system plików
+Summary(pl.UTF-8):   File::Cache - uwspÃ³lnianie danych pomiÄ™dzy procesami poprzez system plikÃ³w
 Name:		perl-File-Cache
 Version:	0.16
 Release:	8
@@ -27,14 +27,14 @@ Where IPC::Cache is faster for small numbers of simple objects,
 File::Cache tends toward being more performant when caching large
 numbers of complex objects.
 
-%description -l pl
-File::Cache implementuje obiekt przechowuj±cy dane, które s±
-zachowywane na czas dzia³añ w systemie plików. Zosta³ napisany jako
+%description -l pl.UTF-8
+File::Cache implementuje obiekt przechowujÄ…cy dane, ktÃ³re sÄ…
+zachowywane na czas dziaÅ‚aÅ„ w systemie plikÃ³w. ZostaÅ‚ napisany jako
 odpowiednik IPC::Cache.
 
-O ile IPC::Cache jest szybszy dla ma³ych ilo¶ci prostych obiektów,
-File::Cache próbuje byæ bardziej wydajny przy cachowaniu wiêkszych
-ilo¶ci z³o¿onych obiektów.
+O ile IPC::Cache jest szybszy dla maÅ‚ych iloÅ›ci prostych obiektÃ³w,
+File::Cache prÃ³buje byÄ‡ bardziej wydajny przy cachowaniu wiÄ™kszych
+iloÅ›ci zÅ‚oÅ¼onych obiektÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
