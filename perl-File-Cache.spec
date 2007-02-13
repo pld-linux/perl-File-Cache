@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Cache
 Summary:	File::Cache - share data between processes via filesystem
-Summary(pl.UTF-8):   File::Cache - uwspólnianie danych pomiędzy procesami poprzez system plików
+Summary(pl.UTF-8):	File::Cache - uwspólnianie danych pomiędzy procesami poprzez system plików
 Name:		perl-File-Cache
 Version:	0.16
 Release:	8
