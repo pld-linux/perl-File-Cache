@@ -9,7 +9,7 @@ Summary:	File::Cache - share data between processes via filesystem
 Summary(pl.UTF-8):	File::Cache - uwspólnianie danych pomiędzy procesami poprzez system plików
 Name:		perl-File-Cache
 Version:	0.16
-Release:	8
+Release:	9
 License:	GPL v1+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
